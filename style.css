@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 8, 8);
+    padding: 2rem;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left:2rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media ( max-width : 600px)
+    {
+        header{
+              flex-direction: column;
+        }
+    }
+
+
+
+ @media (min-width:601px) and (max-width : 900px)
+  {
+    header{
+        flex-direction: column;
+    }
+  } 
+
+
+
+
+#first a{
+    padding: 15px;
+    
+}
+#first{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align:center ;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#first p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#first h3{
+    margin-top: 1rem;
+    color: blueviolet;
+}
+#first h4{
+    margin-top: 1rem;
+    color: blue;
+}
+
+#first img {
+    border-radius: 10%;
+}
+
+.off {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(118, 69, 69);
+    position: absolute;
+    border-radius: 20%;
+    left: 620px;
+    bottom: 5px;
+} 
+
+
+
+#second{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#second h3{
+    margin-top: 1rem;
+    color:blueviolet;
+}
+#second p{
+    margin-top: 1rem;
+    color:rgb(65, 96, 96);
+}
+
+
+
+
+#third{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#third h3{
+    margin-top: 1rem;
+    color: blueviolet;
+}
+#third h4{
+    margin-top: 1rem;
+    color:blue;
+}
+#third p{
+    margin-top: 1rem;
+    color:rgb(8, 31, 31);
+}
+ol{
+    margin-top: 2rem;
+    color:crimson;
+}
+
+.skills{
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    display:inline-block;
+
+}
+#third img{
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+
+
+#fourth{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#fourth h3{
+    margin-top: 1rem;
+    color: blueviolet;
+}
+#fourth h4{
+    margin-top: 1rem;
+    color:maroon;
+}
+
+
+
+
+#fifth{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#fifth h3{
+    margin-top: 1rem;
+    color: blueviolet;
+}
+#fifth h4{
+    margin-top: 1rem;
+    color:blue;
+}
+#fifth p{
+    margin-top: 1rem;
+    color:red;
+}
+
+
+
+#sixth{
+    padding: 2rem;
+    background-color: #c6c4c4;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#sixth h3{
+    margin-top: 1rem;
+}
+#sixth p{
+    margin-top: 1rem;
+    color:black;
+}
+form{
+    margin-top: 1rem; 
+}
+
+
+
+footer{
+    padding: 2rem;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(225, 213, 213);
+    background-color: rgb(59, 75, 75);
+    clear: both;
+}
